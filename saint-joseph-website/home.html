@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saint Joseph | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,700,0,0">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="home.html" aria-label="Saint Joseph Home">
+      <div class="logo-badge">SJ</div>
+      <div class="brand-text">
+        <div class="brand-title">Saint Joseph</div>
+        <div class="brand-sub">Organization Website</div>
+      </div>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a class="active" href="home.html">Home</a>
+      <a  href="about/index.html">About</a>
+      <a  href="what-we-do/index.html">What We Do</a>
+      <a  href="activities/index.html">Activities</a>
+      <a  href="members/index.html">Members</a>
+      <a  href="news-events/index.html">News & Events</a>
+      <a  href="developers/index.html">Developers</a>
+      <a class="nav-cta" href="contact/index.html">Contact</a>
+    </nav>
+
+    <button class="hamburger" data-menu-btn aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="container mobile-panel" data-mobile-panel aria-label="Mobile menu">
+    <a class="active" href="home.html">Home</a>
+    <a  href="about/index.html">About</a>
+    <a  href="what-we-do/index.html">What We Do</a>
+    <a  href="activities/index.html">Activities</a>
+    <a  href="members/index.html">Members</a>
+    <a  href="news-events/index.html">News & Events</a>
+    <a  href="developers/index.html">Developers</a>
+    <a  href="contact/index.html">Contact</a>
+  </div>
+</header>
+
+  <main id="main" class="container hero">
+    <div class="hero-grid">
+      <section>
+        <div class="kicker">
+          <span class="material-symbols-rounded ico" aria-hidden="true">home</span>
+          Overview
+        </div>
+
+        <h1>Service. Discipline. Community.</h1>
+        <p class="lead">
+          Saint Joseph supports communities through outreach, learning initiatives, and volunteer-driven programs.
+          We partner with local leaders to deliver practical help and long-term improvement.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="what-we-do/index.html">Explore Programs</a>
+          <a class="btn ghost" href="activities/index.html">Reports & Updates</a>
+        </div>
+      </section>
+
+      <aside class="panel" aria-label="Quick links">
+        <div class="panel-thumb">
+          <img src="assets/img/hero.jpg" alt="Organization hero image">
+        </div>
+        <div class="panel-body">
+          <strong>Quick Links</strong>
+          <p style="margin-top:8px; line-height:1.75;">
+            • <a href="about/index.html">History & Mission</a><br>
+            • <a href="members/index.html">Our People</a><br>
+            • <a href="news-events/index.html">Upcoming Events</a><br>
+            • <a href="contact/index.html">Contact Details</a>
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <section class="section container">
+      <h2>Focus Areas</h2>
+      <p>Programs designed to be measurable, realistic, and community-first.</p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card-inner">
+            <div class="pill">Education</div>
+            <p class="card-title">Learning Support</p>
+            <p class="small">Tutorial sessions, learning kits, and basic skills workshops.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner">
+            <div class="pill">Health</div>
+            <p class="card-title">Wellness Awareness</p>
+            <p class="small">Health info drives, referrals, and community wellness sessions.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-inner">
+            <div class="pill">Outreach</div>
+            <p class="card-title">Relief & Service</p>
+            <p class="small">Volunteer days, relief distribution, and local partnerships.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="y"></span> Saint Joseph Choir</span>
+        <a href="developers/index.html">Developers</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saint Joseph | Splash</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,700,0,0">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body class="bg">
+  <a class="skip-link" href="#main">Skip to content</a>
+<main id="main" class="container hero" aria-label="Splash">
+    <div class="hero-grid">
+      <section>
+        <div class="kicker">
+          <span class="material-symbols-rounded ico" aria-hidden="true">verified</span>
+          Organization Website (Midterm)
+        </div>
+
+        <h1>Saint Joseph Choir</h1>
+        <p class="lead">
+          A values-driven organization focused on service, outreach, and community growth.
+          This website presents our mission, programs, updates, and the people behind the work.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="home.html">Enter Website</a>
+          <a class="btn ghost" href="developers/index.html">Developers</a>
+        </div>
+
+        <section class="section">
+          <h2>Group Members (edit names + roles)</h2>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-inner">
+                <div class="pill">Member</div>
+                <p class="card-title">Member Name 1</p>
+                <p class="small">Role: Group Leader / UI Designer</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-inner">
+                <div class="pill">Member</div>
+                <p class="card-title">Member Name 2</p>
+                <p class="small">Role: Developer / Content Writer</p>
+              </div>
+            </article>
+
+            <article class="card">
+              <div class="card-inner">
+                <div class="pill">Member</div>
+                <p class="card-title">Member Name 3</p>
+                <p class="small">Role: Developer / QA</p>
+              </div>
+            </article>
+          </div>
+
+          <p class="small" style="margin-top:10px;">
+            Note: Your Developers page must show 2 professional images per member.
+          </p>
+        </section>
+      </section>
+
+      <aside class="panel" aria-label="Authenticity preview">
+        <div class="panel-thumb">
+          <img src="assets/img/hero.jpg" alt="Saint Joseph community service highlight photo">
+        </div>
+        <div class="panel-body">
+          <strong>Authenticity Materials</strong>
+          <p>
+            Add real-looking assets: <b>annual report PDF</b>, <b>certificate image</b>,
+            and edited activity photos inside <code>/docs</code> and <code>/assets/img</code>.
+          </p>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="y"></span> Saint Joseph</span>
+        <a href="home.html">Continue</a>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

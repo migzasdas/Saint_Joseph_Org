@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saint Joseph | Annual Report 2025</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,700,0,0">
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body class="bg">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="../home.html" aria-label="Saint Joseph Home">
+      <div class="logo-badge">SJ</div>
+      <div class="brand-text">
+        <div class="brand-title">Saint Joseph</div>
+        <div class="brand-sub">Organization Website</div>
+      </div>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a  href="../home.html">Home</a>
+      <a  href="../about/index.html">About</a>
+      <a  href="../what-we-do/index.html">What We Do</a>
+      <a class="active" href="../activities/index.html">Activities</a>
+      <a  href="../members/index.html">Members</a>
+      <a  href="../news-events/index.html">News & Events</a>
+      <a  href="../developers/index.html">Developers</a>
+      <a class="nav-cta" href="../contact/index.html">Contact</a>
+    </nav>
+
+    <button class="hamburger" data-menu-btn aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="container mobile-panel" data-mobile-panel aria-label="Mobile menu">
+    <a  href="../home.html">Home</a>
+    <a  href="../about/index.html">About</a>
+    <a  href="../what-we-do/index.html">What We Do</a>
+    <a class="active" href="../activities/index.html">Activities</a>
+    <a  href="../members/index.html">Members</a>
+    <a  href="../news-events/index.html">News & Events</a>
+    <a  href="../developers/index.html">Developers</a>
+    <a  href="../contact/index.html">Contact</a>
+  </div>
+</header>
+
+<main id="main" class="container section">
+    <div class="kicker">
+      <span class="material-symbols-rounded ico" aria-hidden="true">description</span>
+      Report Summary
+    </div>
+
+    <h1>Annual Report (2025) — Summary</h1>
+    <p class="lead">
+      This is a sample report page. Replace entries with your actual achievements, totals, and photos.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-inner">
+          <div class="pill">Highlights</div>
+          <p class="card-title">Key outcomes</p>
+          <p class="small">
+            • Outreach events completed: 6<br>
+            • Learning kits distributed: 150<br>
+            • Active volunteers: 42
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-inner">
+          <div class="pill">Attachments</div>
+          <p class="card-title">Documents</p>
+          <p class="small">
+            • <a href="../docs/annual-report-2025.pdf">Annual Report PDF</a><br>
+            • <a href="../docs/certificate.jpg">Certificate Image</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-inner">
+          <div class="pill">Photos</div>
+          <p class="card-title">Activity images</p>
+          <p class="small">
+            Use edited images in <code>/assets/img/activities</code> so they are consistent and not distorted.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="y"></span> Saint Joseph</span>
+        <a href="../activities/index.html">Back to Activities</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="../assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saint Joseph | What We Do</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,700,0,0">
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+</head>
+<body class="bg">
+  <a class="skip-link" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="../home.html" aria-label="Saint Joseph Home">
+      <div class="logo-badge">SJ</div>
+      <div class="brand-text">
+        <div class="brand-title">Saint Joseph</div>
+        <div class="brand-sub">Organization Website</div>
+      </div>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a  href="../home.html">Home</a>
+      <a  href="../about/index.html">About</a>
+      <a class="active" href="../what-we-do/index.html">What We Do</a>
+      <a  href="../activities/index.html">Activities</a>
+      <a  href="../members/index.html">Members</a>
+      <a  href="../news-events/index.html">News & Events</a>
+      <a  href="../developers/index.html">Developers</a>
+      <a class="nav-cta" href="../contact/index.html">Contact</a>
+    </nav>
+
+    <button class="hamburger" data-menu-btn aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="container mobile-panel" data-mobile-panel aria-label="Mobile menu">
+    <a  href="../home.html">Home</a>
+    <a  href="../about/index.html">About</a>
+    <a class="active" href="../what-we-do/index.html">What We Do</a>
+    <a  href="../activities/index.html">Activities</a>
+    <a  href="../members/index.html">Members</a>
+    <a  href="../news-events/index.html">News & Events</a>
+    <a  href="../developers/index.html">Developers</a>
+    <a  href="../contact/index.html">Contact</a>
+  </div>
+</header>
+
+<main id="main" class="container section">
+    <div class="kicker">
+      <span class="material-symbols-rounded ico" aria-hidden="true">handshake</span>
+      What We Do
+    </div>
+
+    <h1>Programs with purpose</h1>
+    <p class="lead">
+      We focus on simple, organized programs that create measurable outcomes.
+      Each activity is planned, documented, and improved based on results.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="card-inner">
+          <div class="pill">Objectives</div>
+          <p class="card-title">Core objectives</p>
+          <p class="small">
+            • Provide structured community assistance<br>
+            • Develop youth skills through learning support<br>
+            • Strengthen volunteer culture and teamwork
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-inner">
+          <div class="pill">Goals</div>
+          <p class="card-title">Measurable goals</p>
+          <p class="small">
+            • Monthly outreach activity<br>
+            • Quarterly learning drive / workshop<br>
+            • Regular documentation and reporting
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-inner">
+          <div class="pill">Advocacy</div>
+          <p class="card-title">What we stand for</p>
+          <p class="small">
+            Education access, health awareness, volunteerism, and responsible citizenship.
+          </p>
+        </div>
+      </article>
+    </div>
+
+    <section class="section container">
+      <h2>How we work</h2>
+      <p>
+        Plan → Coordinate → Execute → Document → Improve.
+        This keeps our efforts organized and makes reports authentic and consistent.
+      </p>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <span>© <span id="y"></span> Saint Joseph</span>
+        <a href="../activities/index.html">Next: Activities</a>
+      </div>
+    </footer>
+  </main>
+
+  <script src="../assets/js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
